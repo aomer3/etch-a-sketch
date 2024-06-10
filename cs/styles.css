@@ -1,0 +1,18 @@
+#grid-container {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+ .boxes {
+    height: 2px;
+    width: 2px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1%;
+    max-width: 20px;
+    margin: 1px;
+    padding: 2px;
+    background-color: gray;
+  }
